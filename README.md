@@ -14,7 +14,7 @@
 <p className={sass.block.$modifier}>Modifier</p>
 ```
 
-`Home.sass`
+`SASS file`
 ```
 .block
 	background-color: blue
