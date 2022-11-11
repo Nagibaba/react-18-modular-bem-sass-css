@@ -6,7 +6,13 @@
 - SASS, CSS, BEM
 - react-app-rewired, customize-cra
 
-## Examples:
+## Steps:
+- Create app: `yarn create react-app my-app --template typescript`.
+- Run `yarn add -D react-app-rewired customize-cra sass sass-loader`.
+- Override webpack with 'config-overrides.js' file. Also copy `bemify-css-loader.js`.
+- Add `declaration.d.ts` to the `./src` folder to declare CSS and SASS to TS.
+
+## Usage examples:
 `TSX file`
 ```
 <p className={sass.block}>Block</p>
@@ -23,6 +29,7 @@
 	&--modifier
 		background-color: green
 ```
+
 
 
 Was recreated using the example of @davidbarral
