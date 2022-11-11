@@ -9,9 +9,9 @@
 ## Examples:
 `TSX file`
 ```
-  <p className={sass.block}>Block</p>
-	<p className={sass.block.element}>Element</p>
-	<p className={sass.block.$modifier}>Modifier</p>
+<p className={sass.block}>Block</p>
+<p className={sass.block.element}>Element</p>
+<p className={sass.block.$modifier}>Modifier</p>
 ```
 
 `Home.sass`
