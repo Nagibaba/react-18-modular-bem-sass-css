@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "react-18-modular-bem-sass-css",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,7 +45,6 @@
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.2.1",
     "sass": "^1.56.1",
-    "sass-loader": "^13.2.0",
-    "typescript-plugin-css-modules": "^3.4.0"
+    "sass-loader": "^13.2.0"
   }
 }
